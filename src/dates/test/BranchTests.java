@@ -103,7 +103,7 @@ public class BranchTests {
     //Checking if the program produces handles a valid february input with a leap year
     @Test
     public void checkDoomsdayDate(){
-        assertEquals(Dates.Day.Wednesday, Dates.dayOfWeek(2001, 1, 10));
+        assertEquals(Dates.Day.Friday, Dates.dayOfWeek(1999, 1, 8));
     }
 
 
