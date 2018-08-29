@@ -39,11 +39,13 @@ public class BranchTests {
 
     }
 
-    //Non leap year that is divisible by 100
+    //Non leap year that is divisible by 100 and invalid month
     @Test
     public void nonLeapYeardivisible100(){
-        assertEquals(Dates.Day.Monday, Dates.dayOfWeek(1900, 3, 5));
-
+        try {
+        assertEquals(Dates.Day.Monday, Dates.dayOfWeek(1900, 13, 5));
+            fail("Exception was not thrown");
+        }catch(IllegalArgumentException e){}
     }
 
     //Invalid year that is before 1753
@@ -54,16 +56,6 @@ public class BranchTests {
             fail("Exception was not passed");
         }catch(IllegalArgumentException e){}
     }
-
-    //Invalid month where month value is greater than 12
-    @Test
-    public void invalidMonthMoreThan12(){
-        try {
-            assertEquals(Dates.Day.Monday, Dates.dayOfWeek(1876, 13, 18));
-            fail("Exception was not passed");
-        }catch(IllegalArgumentException e){}
-    }
-
 
     //Invalid day that is 0
     @Test
