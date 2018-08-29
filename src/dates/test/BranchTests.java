@@ -14,7 +14,8 @@ import static junit.framework.TestCase.fail;
 
 public class BranchTests {
 
-    //Leap year test that is divisible by 400 and an invalid month
+    //Leap year test that is divisible by 400 and an invalid month. This covers the branch that tests for leap year that
+    //is divisible by 400 and also goes in the branch of a invalid month (0).
     @Test
     public void leapYeardivisible400InvalidMonth0(){
         try {
