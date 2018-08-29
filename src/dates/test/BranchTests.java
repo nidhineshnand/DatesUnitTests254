@@ -25,7 +25,8 @@ public class BranchTests {
 
     }
 
-    //Leap year test that is not divisible by 400 and 100 but is divisible by 4
+    //This test going into the edge that checks if a leap year is obly divisible b 4.No other tests in the path explored
+    //this edge.
     @Test
     public void leapYeardivisible4(){
         assertEquals(Dates.Day.Friday, Dates.dayOfWeek(2004, 5, 21));
