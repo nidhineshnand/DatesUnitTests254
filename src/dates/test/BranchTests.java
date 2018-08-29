@@ -33,7 +33,7 @@ public class BranchTests {
 
     //Non leap year that is divisible by 100 and invalid month
     @Test
-    public void nonLeapYeardivisible100(){
+    public void nonLeapYeardivisible100InvalidMonth(){
         try {
         assertEquals(Dates.Day.Monday, Dates.dayOfWeek(1900, 13, 5));
             fail("Exception was not thrown");
