@@ -6,6 +6,11 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.fail;
 
+/*It is not possible to get 100% branch coverage because there is a statement on line 92 that will be true reguardless of
+* input. This is because the boolean that defines that the statement is in the form of a enhanced for loop that will be true
+* as long as there are elements in the doomsdaysByMonth arraylist. Since the doomsdaysByMonth arraylist is set in the Dates
+* class as static private and final with 12 elements, no external tests can change the number of elemets to 0 in order to
+* make the statement false. Hence it cannot be covered by a branch test.*/
 
 public class BranchTests {
 
@@ -17,10 +22,13 @@ public class BranchTests {
 
     }
 
-    //Leap year test that is divisible by 400
+    //Leap year test that is divisible by 400 and an invalid month
     @Test
-    public void leapYeardivisible400(){
-        assertEquals(Dates.Day.Sunday, Dates.dayOfWeek(2000, 5, 21));
+    public void leapYeardivisible400InvalidMonth0(){
+        try {
+        assertEquals(Dates.Day.Sunday, Dates.dayOfWeek(2000, 0, 21));
+        fail("Exception was not passed");
+        }catch(IllegalArgumentException e){}
 
     }
 
@@ -43,15 +51,6 @@ public class BranchTests {
     public void yearBefore1753(){
         try {
             assertEquals(Dates.Day.Tuesday, Dates.dayOfWeek(1752, 12, 18));
-            fail("Exception was not passed");
-        }catch(IllegalArgumentException e){}
-    }
-
-    //Invalid month where month is 0
-    @Test
-    public void invalidMonthLessThan0(){
-        try {
-            assertEquals(Dates.Day.Monday, Dates.dayOfWeek(1876, 0, 18));
             fail("Exception was not passed");
         }catch(IllegalArgumentException e){}
     }
