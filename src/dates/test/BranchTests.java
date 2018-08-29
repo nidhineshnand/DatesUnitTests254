@@ -14,14 +14,6 @@ import static junit.framework.TestCase.fail;
 
 public class BranchTests {
 
-
-    //Non leap year test
-    @Test
-    public void simpleInput(){
-        assertEquals(Dates.Day.Thursday, Dates.dayOfWeek(2011, 7, 21));
-
-    }
-
     //Leap year test that is divisible by 400 and an invalid month
     @Test
     public void leapYeardivisible400InvalidMonth0(){
@@ -80,7 +72,7 @@ public class BranchTests {
     @Test
     public void checkInvalidFebruaryWithLeapYear(){
         try {
-            assertEquals(Dates.Day.Thursday, Dates.dayOfWeek(2000, 2, 30));
+            assertEquals(Dates.Day.Thursday, Dates.dayOfWeek(1996, 2, 30));
             fail("Exception was not passed");
         }catch(IllegalArgumentException e){}
     }
@@ -88,10 +80,10 @@ public class BranchTests {
     //Checking if the program produces handles a valid february input with a leap year
     @Test
     public void checkValidFebruaryWithLeapYear(){
-            assertEquals(Dates.Day.Tuesday, Dates.dayOfWeek(2000, 2, 29));
+            assertEquals(Dates.Day.Thursday, Dates.dayOfWeek(1996, 2, 29));
     }
 
-    //Checking if the program produces handles a valid february input with a leap year
+    //Checking if the program can handle a date falling on the doomsday date.
     @Test
     public void checkDoomsdayDate(){
         assertEquals(Dates.Day.Friday, Dates.dayOfWeek(1999, 1, 8));
