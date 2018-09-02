@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08988591-b19e-47c8-89f4-74fc15c43d1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/dates/test/BranchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dates/test/BranchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dates/test/EquivalenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dates/test/EquivalenceTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Assignment_2$EquivalenceTest.ic" NAME="EquivalenceTest Coverage Results" MODIFIED="1535887701148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dates.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Assignment_2$BranchTests.ic" NAME="BranchTests Coverage Results" MODIFIED="1535885455631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>dates.test.*</FILTER>
+      <FILTER>dates.Dates</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Assignment_2$DataflowTest.ic" NAME="DataflowTest Coverage Results" MODIFIED="1535509224966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dates.test.*</FILTER>
+      <FILTER>dates.Dates</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="173" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-265356293">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="6594" />
+          <entry key="txt" value="591" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6594" />
+          <entry key="PLAIN_TEXT" value="591" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dates/Dates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dates/test/DataflowTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dates/test/BranchTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1405">
+              <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4213#4214#0" expanded="true" />
+                <element signature="e#4295#4296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dates/test/EquivalenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nidhineshnand &lt;nnan773&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/dates/Dates.java" />
+        <option value="$PROJECT_DIR$/src/dates/test/DataflowTest.java" />
+        <option value="$PROJECT_DIR$/src/dates/test/BranchTests.java" />
+        <option value="$PROJECT_DIR$/src/dates/test/EquivalenceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="960" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dates" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535887699924" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dates/test" />
+      <recent name="$PROJECT_DIR$/src/dates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EquivalenceTest">
+    <configuration name="BranchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment-2" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="dates.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="dates.Dates" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dates.test" />
+      <option name="MAIN_CLASS_NAME" value="dates.test.BranchTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchTests.leapYeardivisible400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dates.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dates.test" />
+      <option name="MAIN_CLASS_NAME" value="dates.test.BranchTests" />
+      <option name="METHOD_NAME" value="leapYeardivisible400" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchTests.simpleInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dates.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dates.test" />
+      <option name="MAIN_CLASS_NAME" value="dates.test.BranchTests" />
+      <option name="METHOD_NAME" value="simpleInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataflowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dates.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="dates.Dates" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dates.test" />
+      <option name="MAIN_CLASS_NAME" value="dates.test.DataflowTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquivalenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dates.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dates.test" />
+      <option name="MAIN_CLASS_NAME" value="dates.test.EquivalenceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BranchTests.simpleInput" />
+      <item itemvalue="JUnit.BranchTests" />
+      <item itemvalue="JUnit.BranchTests.leapYeardivisible400" />
+      <item itemvalue="JUnit.DataflowTest" />
+      <item itemvalue="JUnit.EquivalenceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EquivalenceTest" />
+        <item itemvalue="JUnit.BranchTests" />
+        <item itemvalue="JUnit.DataflowTest" />
+        <item itemvalue="JUnit.BranchTests.leapYeardivisible400" />
+        <item itemvalue="JUnit.BranchTests.simpleInput" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08988591-b19e-47c8-89f4-74fc15c43d1b" name="Default Changelist" comment="" />
+      <created>1535419681717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535419681717</updated>
+      <workItem from="1535419684434" duration="6333000" />
+      <workItem from="1535503148923" duration="9927000" />
+      <workItem from="1535881356200" duration="634000" />
+      <workItem from="1535882017217" duration="3676000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added methods for branch coverage">
+      <created>1535424185121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535424185121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added methods for branch coverage">
+      <created>1535424304770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535424304770</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Completed branch coverage except for one line that cannot be covered">
+      <created>1535424962776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535424962776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Decreased the number of tests to make the second part of the assignment&#10;easier to do">
+      <created>1535504471654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535504471654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed seperate method for invalid month greater than 12">
+      <created>1535505016845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535505016845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed more redundent methods from BranchTest and added the DU path test&#10;in DataflowTest">
+      <created>1535510729237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535510729237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added equivalance class testing">
+      <created>1535511448064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535511448064</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated some tests descriptions">
+      <created>1535511908189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535511908189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated some tests descriptions">
+      <created>1535512562324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535512562324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EquivalenceTest - 2018.09.02 at 22h 43m 58s.xml">
+      <configuration name="EquivalenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 44m 12s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 44m 48s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 45m 15s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 45m 55s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 46m 36s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 47m 27s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 47m 41s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BranchTests - 2018.09.02 at 22h 50m 56s.xml">
+      <configuration name="BranchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EquivalenceTest - 2018.09.02 at 23h 28m 21s.xml">
+      <configuration name="EquivalenceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20570000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.094983995" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893278" weight="0.33081082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49839914" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.33081082" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.2678762" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added methods for branch coverage" />
+    <MESSAGE value="Completed branch coverage except for one line that cannot be covered" />
+    <MESSAGE value="Decreased the number of tests to make the second part of the assignment&#10;easier to do" />
+    <MESSAGE value="Removed seperate method for invalid month greater than 12" />
+    <MESSAGE value="Removed more redundent methods from BranchTest and added the DU path test&#10;in DataflowTest" />
+    <MESSAGE value="Added equivalance class testing" />
+    <MESSAGE value="Updated some tests descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated some tests descriptions" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/dates/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/dates/test/BranchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1405">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4213#4214#0" expanded="true" />
+            <element signature="e#4295#4296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dates/test/DataflowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dates/Dates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dates/test/EquivalenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
